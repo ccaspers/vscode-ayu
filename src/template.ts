@@ -1,4 +1,4 @@
-import * as ayu from 'ayu'
+import * as ayu from 'ayu';
 
 export type SchemeName = keyof typeof ayu
 
@@ -82,12 +82,12 @@ export default (variant: SchemeName, bordered: boolean) => {
       'progressBar.background': scheme.common.accent.hex(),
 
       // LISTS AND TREES
-      'list.activeSelectionBackground': scheme.ui.line.hex(),
+      'list.activeSelectionBackground': '#FFFFFF',
       'list.activeSelectionForeground': scheme.common.ui.hex(),
-      'list.focusBackground': scheme.ui.line.hex(),
+      'list.focusBackground': '#FFFFFF',
       'list.focusForeground': scheme.common.ui.hex(),
       'list.highlightForeground': scheme.common.accent.hex(),
-      'list.hoverBackground': scheme.ui.line.hex(),
+      'list.hoverBackground': '#FFFFFF',
       'list.hoverForeground': scheme.common.ui.hex(),
       'list.inactiveSelectionBackground': scheme.ui.line.hex(),
       'list.inactiveSelectionForeground': scheme.common.ui.hex(),
@@ -112,7 +112,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'editorGroup.background': scheme.ui.panel.bg.hex(),
       'editorGroupHeader.noTabsBackground': scheme.common.bg.hex(),
       'editorGroupHeader.tabsBackground': scheme.common.bg.hex(),
-      'editorGroupHeader.tabsBorder': bordered ?  scheme.ui.line.hex() : scheme.common.bg.hex(),
+      'editorGroupHeader.tabsBorder': bordered ? scheme.ui.line.hex() : scheme.common.bg.hex(),
       'tab.activeBackground': bordered ? scheme.ui.panel.bg.hex() : scheme.common.bg.hex(),
       'tab.activeForeground': scheme.common.fg.hex(),
       'tab.border': bordered ? scheme.ui.line.hex() : scheme.common.bg.hex(),
@@ -149,12 +149,12 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       // 'editor.hoverHighlightBackground': '',
 
-      'editor.lineHighlightBackground': scheme.ui.line.hex(),
+      'editor.lineHighlightBackground': '#FFFFFF',
       // 'editor.lineHighlightBorder': '',
 
       'editorLink.activeForeground': scheme.common.accent.hex(),
 
-      'editor.rangeHighlightBackground': scheme.ui.line.hex(),
+      'editor.rangeHighlightBackground': '#FFFFFF',
 
       'editorWhitespace.foreground': scheme.ui.gutter.normal.hex(),
 
@@ -193,7 +193,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'editorSuggestWidget.background': scheme.ui.panel.bg.hex(),
       'editorSuggestWidget.border': scheme.ui.panel.border.hex(),
       'editorSuggestWidget.highlightForeground': scheme.common.accent.hex(),
-      'editorSuggestWidget.selectedBackground': scheme.ui.line.hex(),
+      'editorSuggestWidget.selectedBackground': '#FFFFFF',
       'editorHoverWidget.background': scheme.ui.panel.bg.hex(),
       'editorHoverWidget.border': scheme.ui.panel.border.hex(),
 
